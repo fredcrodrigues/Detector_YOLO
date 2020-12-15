@@ -1,0 +1,7 @@
+#train and val datasets (image directory or *.txt file with image paths)
+train: /Model_yolo/data/train.txt
+val: /Model_yolo/data/val.txt
+# number of classes
+nc: 1
+# class names
+names: ['face']
